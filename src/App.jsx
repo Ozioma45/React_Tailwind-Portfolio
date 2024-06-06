@@ -20,10 +20,23 @@ const App = () => {
     }
   }, [theme]);
 
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
   return (
-    <div className="font-inter bg-white dark:bg-slate-800">
-      <HeroSection />
-    </div>
+    <>
+      <button
+        type="button"
+        onClick={handleThemeSwitch}
+        className="fixed z-10 right-2 top-2 bg-indigo-500 text-lg
+    p-1 rounded-md">
+        {theme === "dark" ? "🌙" : "🌞"}
+      </button>
+      <div className="font-inter bg-white dark:bg-slate-800">
+        <HeroSection />
+      </div>
+    </>
   );
 };
 
