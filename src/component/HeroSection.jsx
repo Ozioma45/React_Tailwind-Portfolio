@@ -3,6 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div
+      id="hero"
       className="flex items-center justify-center
     flex-col py-20">
       <div className="text-center">
@@ -14,7 +15,7 @@ const HeroSection = () => {
           veritatis.
         </p>
         <a
-          href="#"
+          href="#works"
           className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white md:text-md hover:bg-indigo-700 bg-indigo-600">
           See Works
         </a>
