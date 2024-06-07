@@ -1,8 +1,12 @@
 import React from "react";
 
-const WorkItem = ({ imgUrl, title, tech }) => {
+const WorkItem = ({ imgUrl, title, tech, workUrl }) => {
   return (
-    <div className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
+    <a
+      href={workUrl}
+      target="_blank"
+      rel="noreferrer"
+      className="bg-slate-300 dark:bg-slate-800 rounded-lg overflow-hidden">
       <img
         src={imgUrl}
         alt={title}
@@ -22,7 +26,7 @@ const WorkItem = ({ imgUrl, title, tech }) => {
           ))}
         </p>
       </div>
-    </div>
+    </a>
   );
 };
 
