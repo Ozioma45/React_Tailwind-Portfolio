@@ -11,8 +11,8 @@ const HeroSection = () => {
           Hi, This is Ozioma
         </h1>
         <p className="text-md md:text-xl max-w-md mb-3 text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-          veritatis.
+          An advancing self-taught FrontEnd developer. I design and code
+          beautifully web solutions, and I love what I do.
         </p>
         <a
           href="#works"

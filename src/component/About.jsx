@@ -7,10 +7,11 @@ const About = () => {
       <div className="w-full md:w-6/12">
         <SectionTitle>About Me</SectionTitle>
         <p className="text-md text-gray-600 dark:text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-          ratione laboriosam quos esse, reprehenderit saepe beatae, veritatis
-          optio aut et pariatur dolorem. Eos eaque praesentium odit architecto,
-          sequi in nesciunt?
+          I create intuitive, accessible, and visually stunning web solutions to
+          positively impact people's lives. I'm also a music-loving drummer and
+          enjoy playing chess, which inspires my problem-solving and attention
+          to detail. My ultimate goal is to leverage my skills and knowledge to
+          drive meaningful change in the online world, one project at a time.
         </p>
         <p>
           <a

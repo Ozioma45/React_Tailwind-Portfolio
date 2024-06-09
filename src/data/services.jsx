@@ -7,18 +7,18 @@ export default [
     title: "Web Design",
     icons: <MdWeb className="w-full h-full" />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo iusto harum non, laborum ea.",
+      "Crafting visually stunning and user-friendly websites that effectively communicate your brand's story and engage your audience.",
   },
   {
     title: "UI/UX Design",
     icons: <FaHandHoldingHeart className="w-full h-full" />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo iusto harum non, laborum ea.",
+      "Designing intuitive and engaging interfaces with a focus on enhancing user experience, ensuring your digital products are both functional and delightful to use.1",
   },
   {
     title: "Web Development",
     icons: <VscCode className="w-full h-full" />,
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nemo iusto harum non, laborum ea.",
+      "Building robust, scalable, and secure websites and web applications tailored to your specific needs, ensuring a seamless and efficient user experience.",
   },
 ];
